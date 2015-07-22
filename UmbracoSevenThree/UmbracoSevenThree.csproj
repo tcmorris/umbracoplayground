@@ -2917,12 +2917,15 @@
     <Content Include="umbraco_client\CodeMirror\Js\Mode\Razor\LICENSE" />
     <Content Include="umbraco_client\CodeMirror\Js\Mode\Sieve\LICENSE" />
     <Content Include="App_Data\packages\installed\installedPackages.config" />
-    <None Include="Web.Debug.config">
+    <Content Include="Web.Dev.config">
       <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
+    </Content>
+    <Content Include="Web.Test.config">
       <DependentUpon>Web.config</DependentUpon>
-    </None>
+    </Content>
+    <Content Include="Web.Live.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Config\grid.editors.config.js" />
