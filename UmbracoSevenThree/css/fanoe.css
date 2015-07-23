@@ -715,7 +715,7 @@ nav > ul li:after {
 
 nav > ul li.selected > a,
 nav > ul li.selected span {
-	color: #fff;
+	color: #f46f23;
 	font-weight: 700;
 }
 
@@ -737,7 +737,7 @@ nav li > ul li a {
 }
 
 nav li > ul li a:hover {
-	color: #fff;
+	color: #f46f23;
 }
 
 nav li > ul > li > ul {
